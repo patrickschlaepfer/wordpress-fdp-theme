@@ -1,0 +1,165 @@
+/*
+Theme Name: FDP ZH Nationalratswahlkampf 2011
+Theme URI: http://www.schlaepfer.com
+Description: Template zu Wordpress f&uuml;r den kantonalen Nationalratswahlkampf 2011. Angelehnt an das CI der FDP Kanton Z&uuml;rich. 
+Author: Patrick Schl&auml;pfer
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: custom-menu, right-sidebar, white
+Author URI: http://www.schlaepfer.com/?p=165
+*/
+
+@import 'css/reset.css';
+
+@import 'css/lavalamp.css';
+
+body {
+  font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #454545;
+  background-repeat: repeat-x;
+  background-color: #f3f3f3;
+}
+
+p {
+  line-height: 1.6em;
+  margin: 0 0 14px 0;
+}
+
+a:link, a:visited, a:active {
+  color: #074EA1;
+  text-decoration: none;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: "Universe LT Std 75", Arial, Verdana, sans-serif;
+  margin: 0px;
+  color: #074EA1;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  padding: 0;
+  font-size: 21px;
+  margin: 0 0 14px 0;
+  line-height:1.3em;
+}
+
+hr {
+  border-top: solid #f3f3f3 1px;
+  height:1px;
+}
+
+.top {
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    position: relative;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignleft{
+  text-align: left;
+}
+
+.entry-title {
+  font-size: 18px;
+}
+
+.teaser {
+  font-size: 21px;
+  color:  #074EA1;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.container_12 {
+  background-color: #ffffff;
+}
+
+.output {
+  text-align: left;
+  font-size: 21px;
+  border-top: 20px;
+  vertical-align: center;
+}
+
+#s1 {
+  float: left;
+  width: 720px;
+}
+
+#s2 {
+  float: left;
+  margin-left: 0px;
+  margin-top: 20px;
+  font-size: 23px;
+  overflow: visible;
+  width: 200px;
+  color: #074EA1;
+}
+
+.entry li {
+   list-style: none;
+   line-height: 1.6em;
+   
+}
+
+#sidebar li {
+    list-style: none;
+}
+
+#container_navigation li {
+    list-style: none; 
+}
+
+#container_content h1 {
+     width: 550px;
+}
+
+.secondary {
+    padding: 30px 0;
+}
+
+.portrait {
+    background-image: url(images/head.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 240px;
+}
+
+/* -------------------------------------- */
+.wp-caption {
+
+}
+
+.wp-caption-text {
+
+} 
+
+.sticky {
+
+}
+
+.gallery-caption {
+
+}
+
+.bypostauthor {
+
+}
